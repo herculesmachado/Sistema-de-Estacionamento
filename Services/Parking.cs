@@ -9,15 +9,19 @@ namespace ParkingSystem.Services
     public class Parking
     {
         public string Placa { get; set; }
-        List<string> vehicles = new List<string>();
+        public string Registro { get; set; }
+        List<string> Vehicles = new List<string>();
 
         public void AddVehicles() 
         {
-            System.Console.Write("Adicionar a placa: ");
+            DateTime horaDeCadastro = DateTime.Now;
+
+            System.Console.Write("Digite a placa do veiculo: ");
             Placa = Console.ReadLine(); 
-            vehicles.Add(Placa.ToUpper());
+            Registro = $"{Placa.ToUpper()}: Cadastrado em: {horaDeCadastro}";
+            Vehicles.Add(Registro);
             Console.Clear();
-            System.Console.WriteLine("Veiculo adiconando com sucesso!!");
+            System.Console.WriteLine($"Veiculo {Placa.ToUpper()} adicionado com sucesso às {horaDeCadastro}!!");
         }
 
         public void ListVehicles()
@@ -26,21 +30,21 @@ namespace ParkingSystem.Services
             System.Console.WriteLine("Todos os veiculos no estacionamento:");
             Console.WriteLine("===================================================");
 
-            // DateTime horaDeCadastro = DateTime.Now;
-            foreach (string vehiclesNumber in vehicles)
+
+            foreach (string VehiclesNumber in Vehicles)
             {
-                System.Console.WriteLine($"{index} - {vehiclesNumber}");
+                Console.WriteLine($"{index} - {VehiclesNumber}");
                 index++;
             }
         }
 
         public void RemoveVehicles() 
         {
-            System.Console.Write("Remover veiculo pela placa: ");
+            Console.Write("Remover veiculo pela placa: ");
             Placa = Console.ReadLine();
-            vehicles.Remove(Placa.ToUpper());
+            Vehicles.Remove(Registro);
             Console.Clear();
-            System.Console.WriteLine("Veiculo removido com sucesso!!");
+            Console.WriteLine("Veiculo removido com sucesso!!");
         }
     }
 }
