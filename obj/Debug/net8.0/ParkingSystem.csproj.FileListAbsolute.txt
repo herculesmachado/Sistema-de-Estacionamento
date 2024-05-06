@@ -1,0 +1,15 @@
+P:\ProjetosCSharp\ParkingSystem\bin\Debug\net8.0\ParkingSystem.exe
+P:\ProjetosCSharp\ParkingSystem\bin\Debug\net8.0\ParkingSystem.deps.json
+P:\ProjetosCSharp\ParkingSystem\bin\Debug\net8.0\ParkingSystem.runtimeconfig.json
+P:\ProjetosCSharp\ParkingSystem\bin\Debug\net8.0\ParkingSystem.dll
+P:\ProjetosCSharp\ParkingSystem\bin\Debug\net8.0\ParkingSystem.pdb
+P:\ProjetosCSharp\ParkingSystem\obj\Debug\net8.0\ParkingSystem.GeneratedMSBuildEditorConfig.editorconfig
+P:\ProjetosCSharp\ParkingSystem\obj\Debug\net8.0\ParkingSystem.AssemblyInfoInputs.cache
+P:\ProjetosCSharp\ParkingSystem\obj\Debug\net8.0\ParkingSystem.AssemblyInfo.cs
+P:\ProjetosCSharp\ParkingSystem\obj\Debug\net8.0\ParkingSystem.csproj.CoreCompileInputs.cache
+P:\ProjetosCSharp\ParkingSystem\obj\Debug\net8.0\ParkingSystem.dll
+P:\ProjetosCSharp\ParkingSystem\obj\Debug\net8.0\refint\ParkingSystem.dll
+P:\ProjetosCSharp\ParkingSystem\obj\Debug\net8.0\ParkingSystem.pdb
+P:\ProjetosCSharp\ParkingSystem\obj\Debug\net8.0\ParkingSystem.genruntimeconfig.cache
+P:\ProjetosCSharp\ParkingSystem\obj\Debug\net8.0\ref\ParkingSystem.dll
+p:\ProjetosCSharp\ParkingSystem\obj\Debug\net8.0\ParkingSystem.sourcelink.json
