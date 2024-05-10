@@ -7,7 +7,7 @@ namespace ParkingSystem.Models
 {
     public class Menu
     {
-        public void MenuSystem()
+        public static void MenuSystem()
         {
             Console.WriteLine("===================================================");
             Console.WriteLine("Seja bem-vindo ao nosso sistema de estacionameto!!");
@@ -21,12 +21,18 @@ namespace ParkingSystem.Models
             Console.Write("Digite uma opção: ");
         }
 
-        public void AnyKey()
+        public static void AnyKey()
         {
             Console.WriteLine("===================================================");
-            System.Console.Write("Digite qualquer tecla para voltar:");
+            Console.Write("Digite qualquer tecla para voltar:");
             Console.ReadKey();
             Console.Clear();
         }
+
+        // public static void ParkingPay() 
+        // {
+        //     Console.WriteLine("===================================================");
+        //     Console.Write("Digite a placa do carro: ");
+        // }
     }
 }

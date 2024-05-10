@@ -2,13 +2,12 @@
 using ParkingSystem.Services;
 
 Parking parkingSystem = new();
-Menu menu = new();
 int option;
 
 do
 {
     Console.Clear();
-    menu.MenuSystem();
+    Menu.MenuSystem();
     option = int.Parse(Console.ReadLine());
 
     switch (option)
@@ -16,19 +15,25 @@ do
         case 1:
             Console.Clear();
             parkingSystem.AddVehicles();
-            menu.AnyKey();
+            Menu.AnyKey();
             break;
+
+        case 2:
+        Console.Clear();
+        parkingSystem.Payment();
+        Menu.AnyKey();
+        break;
 
         case 3:
             Console.Clear();
             parkingSystem.ListVehicles();
-            menu.AnyKey();
+            Menu.AnyKey();
             break;
 
         case 4:
             Console.Clear();
             parkingSystem.RemoveVehicles();
-            menu.AnyKey();
+            Menu.AnyKey();
             break;
 
 
